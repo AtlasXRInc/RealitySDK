@@ -1,28 +1,22 @@
-name: Deploy Just the Docs site to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
-    branches:
-      - main  # or your default branch
+    branches: [main]
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: docs
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-ruby@v1
+      - uses: actions/checkout@v4
+      - name: Build site
+        run: |
+          # Your build commands here
+          echo "Building site..."
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          ruby-version: '2.7'
-      - run: |
-          gem install bundler
-          bundle install
-          bundle exec jekyll build
-      - uses: actions/upload-pages-artifact@v1
-        with:
-          path: docs/_site
+          path: ./public
 
   deploy:
     needs: build
@@ -34,4 +28,5 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/deploy-pages@v1
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
