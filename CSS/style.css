@@ -1,0 +1,17 @@
+﻿h2 {
+    color: dodgerblue;
+}
+
+strong {
+    color: dodgerblue;
+}
+
+em {
+    color: lightslategrey;
+}
+
+.md-annotation .md-tooltip img {
+    width: 80px;
+    float:left;
+    margin-right: 8px;
+}
