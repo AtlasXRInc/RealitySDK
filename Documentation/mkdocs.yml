@@ -1,0 +1,78 @@
+﻿docs_dir: Source
+
+site_name: Reality SDK [0.1]
+site_dir: Output
+site_url: https://reality.beyondsandbox.com/
+site_author: AtlasXR
+
+nav:
+  # - Home: 'index.md'
+  - Documentation:
+    - 'Prerequisites': 'Documentation/Prerequisites.md'
+    - 'Create Mod': 'Documentation/CreateMod.md'
+    - 'Test Mod': 'Documentation/TestMod.md'
+  # - API: 'API.md'
+  - Roadmap: 'Roadmap.md'
+  # - Download: 'Download.md'
+
+theme:
+  include_sidebar: true
+  name: material
+  logo: Data/Logo.png
+  favicon: Data/Logo.png
+
+  icon:
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+    annotation: material/information-outline
+
+  palette:
+    - scheme: slate
+      primary: black
+      accent: deep orange
+
+  features:
+    - content.code.copy
+    - navigation.expand
+    - navigation.indexes
+    - navigation.path
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+
+    - toc.integrate
+    - toc.follow
+    - search.suggest
+    - search.highlight
+
+copyright: Copyright &copy; 2025 AtlasXR
+
+extra_css:
+  - CSS/style.css
+
+markdown_extensions:
+  - abbr
+  - attr_list
+  - md_in_html
+  - admonition
+  - toc:
+      permalink: true
+      toc_depth: '2-4'
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - mkdocs-video
+  - search
+  - glightbox
