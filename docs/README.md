@@ -4,7 +4,7 @@ RealitySDK is the official modding SDK for *Beyond Sandbox*, a multiplayer VR sa
 
 It provides creators with the tools to build fully interactive, physics-driven, and multiplayer-ready experiences. From custom weapons to complete game modes, RealitySDK enables you to create and share your own content inside Beyond Sandbox.
 
-Beyond Sandbox is designed as a **modding-first platform**, combining advanced physics, VR interactions, and user-generated content to create an ever-expanding ecosystem of experiences. :contentReference[oaicite:1]{index=1}
+Beyond Sandbox is designed as a **modding-first platform**, combining advanced physics, VR interactions, and user-generated content to create an ever-expanding ecosystem of experiences.
 
 ---
 
