@@ -33,7 +33,6 @@ Create interactive objects and gameplay elements:
 
 **Features:**
 - Built-in tools to easily create and configure hand poses for interactions  
-- Support for physics-based interactions (grips)  
 - Melee weapons include a **Sharp Area component** for stabbing and slashing mechanics  
 
 ---
