@@ -22,20 +22,21 @@ Here’s what you can build with RealitySDK.
 
 ---
 
-## 🏗️ Content Creation
+## 🎮 Gameplay Creation
 
-### 3D Assets & Interaction
-- Prepare and import custom meshes  
-- Add grab interactions (grips) to objects  
+### Interactables
+Create interactive objects and gameplay elements:
 
-**Create:**
 - Firearms  
-- Melee weapons
-- Props
+- Melee weapons  
+- Props  
+
+**Features:**
+- Built-in tools to easily create and configure hand poses for interactions  
+- Support for physics-based interactions (grips)  
+- Melee weapons include a **Sharp Area component** for stabbing and slashing mechanics  
 
 ---
-
-## 🎮 Gameplay Creation
 
 ### Game Modes
 - Create fully custom game modes  
@@ -46,6 +47,8 @@ Here’s what you can build with RealitySDK.
 - Game Data system  
 - Spawn system  
 - Teams system  
+
+---
 
 ### Gameplay Systems
 - Use the Reality Gameplay System to drive mechanics  
