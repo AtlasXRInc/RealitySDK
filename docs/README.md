@@ -76,15 +76,10 @@ Create interactive objects and gameplay elements:
 - Create custom maps  
 - Support multiple game modes per level  
 
-**Tools:**
-- Light scenarios  
-- Map variants  
-- Level tools  
-
-### Requirements & Optimization
-- Follow map requirements  
-- Build lighting  
-- Optimize for performance  
+**Tools & Optimization:**
+- Light scenarios & variants per level (eg Day/Night/Rain)
+- Level tools
+- Requirements & guidelines
 
 ---
 
@@ -93,12 +88,11 @@ Create interactive objects and gameplay elements:
 ### Reality Asset Data
 - Create structured data assets  
 - Define gameplay properties  
-- Use runtime-editable properties  
+- Implement runtime-editable properties  
 
 ### Runtime Systems
 - Spawn actors dynamically  
 - Access game context  
-- Use runtime data for dynamic behavior  
 
 ---
 
